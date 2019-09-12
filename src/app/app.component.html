@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+<br>
+<!-- OUR SERVICES-->
+<div class="nav-tabs-navigation">
+    <div class="nav-tabs-wrapper">
+        <ngb-tabset [justify]="'center'">
+            <ngb-tab title="Service 1">
+                <ng-template ngbTabContent >
+                    Hello Part1
+                </ng-template>
+            </ngb-tab>
+            <ngb-tab title="Service 2">
+                <ng-template ngbTabContent>
+                    Hello Part2
+                </ng-template>
+            </ngb-tab>
+        </ngb-tabset>
+    </div>
+</div>
+
+
+<app-footer *ngIf="removeFooter()"></app-footer>

@@ -1,0 +1,30 @@
+.companylogo{
+    width: 20vw;
+}
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+.whoarewerow{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wecontainer{
+margin: auto;
+}
+.whoarewe1{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ultra', serif;
+}
+.right {
+    padding-right: 5%;
+    font-size: 23px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .right {
+      font-size: 13px;
+    }
+    .whoarewe1{
+          font-size: 28px;
+    }
+  }
