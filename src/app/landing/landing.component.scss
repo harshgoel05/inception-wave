@@ -1,0 +1,15 @@
+.image-container{
+    background-image: url(../../assets/img/antoine-barres.jpg);
+    // background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    border: 3px solid orange;
+    width: 25%;
+    margin: 4%;
+}
+img:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
