@@ -22,7 +22,6 @@ import { RakshitaComponent } from './rakshita/rakshita.component';
 import { KritiComponent } from './kriti/kriti.component';
 
 import {Blog1Component} from './blogs/blog1/blog1.component'
-import {BlogsComponent} from './blogs/blogs.component'
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'yash',     component: ProfileComponent },
@@ -41,7 +40,6 @@ const routes: Routes =[
     { path: 'rakshita',      component: RakshitaComponent },
     { path: 'kriti',      component: KritiComponent },
     { path: 'blog1',      component: Blog1Component },
-    { path: 'blogs',      component: BlogsComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

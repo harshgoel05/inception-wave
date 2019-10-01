@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+// Who are we
+.whoarewerow{
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+.wecontainer{
+margin: auto;
+}
+.whoarewe1{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Ultra', serif;
+}
+.right {
+    padding-right: 5%;
+    font-size: 23px;
+    text-align: justify;
+}
+.servehead{
+    font-family: 'Montserrat';
+}
+.appcol,.buiscol,.webcol{
+    padding-left: 5%;
+    padding-right: 5%;
+    transition:5s ease;
+    padding-top: 1.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .right {
+      font-size: 13px;
+    }
+    .whoarewe1{
+          font-size: 30px;
+    }
+    .servehead{
+        font-size: 13px;
+    }
+}

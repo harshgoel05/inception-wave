@@ -3,8 +3,14 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 10%;
 }
-.row{
-    margin: 3%;
+img{
+    border: groove;
+    width: 25%;
+    margin: 4%;
+    transition-duration: 1s;
+}
+img:hover{
+    transform: rotateY(180deg);
+    transition-duration: 1s;
 }
