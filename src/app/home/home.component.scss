@@ -9,7 +9,6 @@
 }
 .wecontainer{
 margin: auto;
-
 }
 .whoareweheading{
     vertical-align: middle;
@@ -192,4 +191,24 @@ hr{
         font-size:8px;
         margin: 2%;
     }
+}
+.form-area input,.form-area textarea, .form-area select{
+    font-size: 1.1em;
+    padding-bottom: 30px;
+    border: none;
+    margin: 0 0 20px 0;
+    background: none;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    width: 400px;
+    color: rgb(131, 131, 131) !important;
+}
+.s-btn{
+    border: 2px solid rgb(131, 131, 131) !important;
+    font-size: 1.1em;
+    padding: 10px;
+    border: none;
+    margin: 0 0 20px 0;
+    background: none;
+    width: 400px;
+    color: rgb(131, 131, 131) !important;
 }
