@@ -34,7 +34,6 @@ import { KritiComponent } from './kriti/kriti.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { Blog1Component } from './blogs/blog1/blog1.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +58,7 @@ import { Blog1Component } from './blogs/blog1/blog1.component';
     RakshitaComponent,
     KritiComponent,
     BlogsComponent,
-    Blog1Component
+    Blog1Component,
   ],
   imports: [
     BrowserModule,
