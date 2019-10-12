@@ -7,11 +7,13 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { ComponentsModule } from '../components/components.module';
 import { MentorsComponent } from './mentors/mentors.component';
+import { Mentor1Component } from './mentors/mentor1/mentor1.component';
 // import { GalleryComponent } from 'app/gallery/gallery.component';
 @NgModule({
     declarations: [
         HomeComponent,
         MentorsComponent,
+        Mentor1Component,
         // GalleryComponent
     ],
     imports: [
