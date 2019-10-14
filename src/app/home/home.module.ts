@@ -8,12 +8,16 @@ import { HomeComponent } from './home.component';
 import { ComponentsModule } from '../components/components.module';
 import { MentorsComponent } from './mentors/mentors.component';
 import { Mentor1Component } from './mentors/mentor1/mentor1.component';
+import { ChaptersComponent } from './chapters/chapters.component';
+import { ChennaiComponent } from './chapters/chennai/chennai.component';
 // import { GalleryComponent } from 'app/gallery/gallery.component';
 @NgModule({
     declarations: [
         HomeComponent,
         MentorsComponent,
         Mentor1Component,
+        ChaptersComponent,
+        ChennaiComponent,
         // GalleryComponent
     ],
     imports: [

@@ -43,12 +43,13 @@ margin: auto;
         font-size: 30px;
     }
 }
-
+.about-us-cont{
+    margin-left: 10%;
+}
 //Our Services
 .ourservices{
     font-size: 50px;
-    color: rgb(59, 59, 59);
-    padding-bottom: 2%;
+    padding-bottom: 30px;
 }
 .services{
     color:black;
@@ -191,6 +192,9 @@ hr{
         font-size:8px;
         margin: 2%;
     }
+    .blog-container{
+        padding-left: 20%;
+    }
 }
 .form-area input,.form-area textarea, .form-area select{
     font-size: 1.1em;
@@ -211,4 +215,9 @@ hr{
     background: none;
     width: 400px;
     color: rgb(131, 131, 131) !important;
+}
+.student-chapter-container{
+    background-color: black;
+    color: white;
+    padding:60px;
 }

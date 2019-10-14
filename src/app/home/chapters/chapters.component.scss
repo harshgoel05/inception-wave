@@ -1,0 +1,19 @@
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+.button1{
+    background-image: linear-gradient(to left,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+}
+.button2{
+    background-image: linear-gradient(to right,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+}

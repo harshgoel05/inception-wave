@@ -161,10 +161,18 @@
     <div class="btn-container">
       <a [routerLink]="['/gallery']" class="btn  btn-round">Dive into the Gallery</a>
   </div>
+  </div>  
+<div class="student-chapter-container">
+
+  <div class="container ">
+
+        <div class="text-center">
+            <h2 class="ourservices"><b>Student Chapters</b></h2>
+            <app-chapters></app-chapters>
+        </div>
   </div>
-  <!-- Mentors -->
-  <app-mentors></app-mentors>
-  
+      
+</div>
   <!-------------------------------------------Blogs ----------------------------------->
 <div class="text-center">
     <h2 class="ourservices"><b>Blogs</b></h2>
@@ -220,16 +228,13 @@
 <div class="btn-container">
     <a [routerLink]="['/blogs']" class="btn  btn-round">See more Blogs</a>
 </div>
-
 <!----------------------------------------- ABout us------------------------- -->
-
-
         <div id="images">
         <p style="text-align: center" class="aboutus">
         <br>
         About Us
         </p>
-        <div class="container">
+        <div class="container about-us-cont">
         <div class="row">
 
         <div  class="col-xs-6  col-sm-3 col-md-2 offset-md-1" routerLinkActive="active">
@@ -305,7 +310,9 @@
         </div>
 <br><br>
 
-
+  <!-- Mentors -->
+  <app-mentors></app-mentors>
+  <br><br>
 <!--  Feedback Form -->
 <div class="form-area text-center">
     <img src="../assets/img/feedback.png">

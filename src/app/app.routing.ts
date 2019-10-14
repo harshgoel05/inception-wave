@@ -25,7 +25,7 @@ import {Blog1Component} from './blogs/blog1/blog1.component'
 import {BlogsComponent} from './blogs/blogs.component'
 
 import {Mentor1Component} from './home/mentors/mentor1/mentor1.component'
-
+import { ChennaiComponent } from './home/chapters/chennai/chennai.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'yash',     component: ProfileComponent },
@@ -46,6 +46,7 @@ const routes: Routes =[
     { path: 'blog1',      component: Blog1Component },
     { path: 'blogs',      component: BlogsComponent },
     { path: 'mentor1',      component: Mentor1Component },
+    { path: 'chennai-chapter',      component: ChennaiComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
