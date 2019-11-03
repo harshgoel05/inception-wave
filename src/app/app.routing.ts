@@ -28,25 +28,25 @@ import {Mentor1Component} from './home/mentors/mentor1/mentor1.component'
 import { ChennaiComponent } from './home/chapters/chennai/chennai.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
-    { path: 'yash',     component: ProfileComponent },
-    { path: 'signup',           component: SignupComponent },
-    { path: 'gallery',          component: LandingComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent },
-    { path: 'kritarth',      component: KritarthComponent },
-    { path: 'kartik',      component: KartikComponent },
-    { path: 'gaurav',      component: GauravComponent },
-    { path: 'megha',      component: MeghaComponent },
-    { path: 'arshia',      component: DiviComponent },
-    { path: 'gagan',      component: GaganComponent },
-    { path: 'pratik',      component: GautamComponent },
-    { path: 'shivang',      component: ShivangComponent },
-    { path: 'vishal',      component: VishalComponent },
-    { path: 'rakshita',      component: RakshitaComponent },
-    { path: 'kriti',      component: KritiComponent },
-    { path: 'blog1',      component: Blog1Component },
-    { path: 'blogs',      component: BlogsComponent },
-    { path: 'mentor1',      component: Mentor1Component },
-    { path: 'chennai-chapter',      component: ChennaiComponent },
+    // { path: 'yash',     component: ProfileComponent },
+     { path: 'signup',           component: SignupComponent },
+     { path: 'gallery',          component: LandingComponent },
+    // { path: 'nucleoicons',      component: NucleoiconsComponent },
+    // { path: 'kritarth',      component: KritarthComponent },
+    // { path: 'kartik',      component: KartikComponent },
+    // { path: 'gaurav',      component: GauravComponent },
+    // { path: 'megha',      component: MeghaComponent },
+    // { path: 'arshia',      component: DiviComponent },
+    // { path: 'gagan',      component: GaganComponent },
+    // { path: 'pratik',      component: GautamComponent },
+    // { path: 'shivang',      component: ShivangComponent },
+    // { path: 'vishal',      component: VishalComponent },
+    // { path: 'rakshita',      component: RakshitaComponent },
+    // { path: 'kriti',      component: KritiComponent },
+    // { path: 'blog1',      component: Blog1Component },
+    // { path: 'blogs',      component: BlogsComponent },
+    // { path: 'mentor1',      component: Mentor1Component },
+    // { path: 'chennai-chapter',      component: ChennaiComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
@@ -54,7 +54,7 @@ const routes: Routes =[
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes,{useHash:true})
+     RouterModule.forRoot(routes)
   ],
   exports: [
   ],
