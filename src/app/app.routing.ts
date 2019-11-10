@@ -24,7 +24,6 @@ import { KritiComponent } from './kriti/kriti.component';
 import {Blog1Component} from './blogs/blog1/blog1.component'
 import {BlogsComponent} from './blogs/blogs.component'
 
-import {Mentor1Component} from './home/mentors/mentor1/mentor1.component'
 import { ChennaiComponent } from './home/chapters/chennai/chennai.component';
 import { MsitComponent } from './home/chapters/msit/msit.component';
 import { DrcComponent } from './home/chapters/drc/drc.component';
@@ -50,12 +49,11 @@ const routes: Routes =[
     { path: 'kriti',      component: KritiComponent },
     { path: 'blog1',      component: Blog1Component },
     { path: 'blogs',      component: BlogsComponent },
-    { path: 'mentor1',      component: Mentor1Component },
     { path: 'srm-chennai',      component: ChennaiComponent },
     { path: 'msit-chapter',      component: MsitComponent },
     { path: 'drc-chapter',      component: DrcComponent },
     { path: 'sukriti-saroj',      component: SukritiComponent },
-    { path: 'ritesh-bhar',      component: RiteshComponent },
+    { path: 'ritesh-bhat',      component: RiteshComponent },
     { path: 'surender-thina',      component: SurenderComponent },
 
     { path: '', redirectTo: 'home', pathMatch: 'full' }
