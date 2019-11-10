@@ -26,11 +26,13 @@ import {BlogsComponent} from './blogs/blogs.component'
 
 import {Mentor1Component} from './home/mentors/mentor1/mentor1.component'
 import { ChennaiComponent } from './home/chapters/chennai/chennai.component';
+import { MsitComponent } from './home/chapters/msit/msit.component';
+import { DrcComponent } from './home/chapters/drc/drc.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'yash',     component: ProfileComponent },
-    { path: 'signup',           component: SignupComponent },
-    { path: 'gallery',          component: LandingComponent },
+     { path: 'signup',           component: SignupComponent },
+     { path: 'gallery',          component: LandingComponent },
     { path: 'nucleoicons',      component: NucleoiconsComponent },
     { path: 'kritarth',      component: KritarthComponent },
     { path: 'kartik',      component: KartikComponent },
@@ -46,7 +48,9 @@ const routes: Routes =[
     { path: 'blog1',      component: Blog1Component },
     { path: 'blogs',      component: BlogsComponent },
     { path: 'mentor1',      component: Mentor1Component },
-    { path: 'chennai-chapter',      component: ChennaiComponent },
+    { path: 'srm-chennai',      component: ChennaiComponent },
+    { path: 'msit-chapter',      component: MsitComponent },
+    { path: 'drc-chapter',      component: DrcComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
@@ -54,7 +58,7 @@ const routes: Routes =[
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes,{useHash:true})
+     RouterModule.forRoot(routes)
   ],
   exports: [
   ],

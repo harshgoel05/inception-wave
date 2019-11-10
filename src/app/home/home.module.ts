@@ -10,6 +10,8 @@ import { MentorsComponent } from './mentors/mentors.component';
 import { Mentor1Component } from './mentors/mentor1/mentor1.component';
 import { ChaptersComponent } from './chapters/chapters.component';
 import { ChennaiComponent } from './chapters/chennai/chennai.component';
+import { MsitComponent } from './chapters/msit/msit.component';
+import { DrcComponent } from './chapters/drc/drc.component';
 // import { GalleryComponent } from 'app/gallery/gallery.component';
 @NgModule({
     declarations: [
@@ -18,6 +20,8 @@ import { ChennaiComponent } from './chapters/chennai/chennai.component';
         Mentor1Component,
         ChaptersComponent,
         ChennaiComponent,
+        MsitComponent,
+        DrcComponent,
         // GalleryComponent
     ],
     imports: [
