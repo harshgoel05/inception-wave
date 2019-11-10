@@ -12,6 +12,9 @@ import { ChaptersComponent } from './chapters/chapters.component';
 import { ChennaiComponent } from './chapters/chennai/chennai.component';
 import { MsitComponent } from './chapters/msit/msit.component';
 import { DrcComponent } from './chapters/drc/drc.component';
+import { SurenderComponent } from './mentors/surender/surender.component';
+import { RiteshComponent } from './mentors/ritesh/ritesh.component';
+import { SukritiComponent } from './mentors/sukriti/sukriti.component';
 // import { GalleryComponent } from 'app/gallery/gallery.component';
 @NgModule({
     declarations: [
@@ -22,6 +25,9 @@ import { DrcComponent } from './chapters/drc/drc.component';
         ChennaiComponent,
         MsitComponent,
         DrcComponent,
+        SurenderComponent,
+        RiteshComponent,
+        SukritiComponent,
         // GalleryComponent
     ],
     imports: [

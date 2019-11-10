@@ -28,6 +28,9 @@ import {Mentor1Component} from './home/mentors/mentor1/mentor1.component'
 import { ChennaiComponent } from './home/chapters/chennai/chennai.component';
 import { MsitComponent } from './home/chapters/msit/msit.component';
 import { DrcComponent } from './home/chapters/drc/drc.component';
+import { SurenderComponent } from './home/mentors/surender/surender.component';
+import { SukritiComponent } from './home/mentors/sukriti/sukriti.component';
+import { RiteshComponent } from './home/mentors/ritesh/ritesh.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'yash',     component: ProfileComponent },
@@ -51,6 +54,10 @@ const routes: Routes =[
     { path: 'srm-chennai',      component: ChennaiComponent },
     { path: 'msit-chapter',      component: MsitComponent },
     { path: 'drc-chapter',      component: DrcComponent },
+    { path: 'sukriti-saroj',      component: SukritiComponent },
+    { path: 'ritesh-bhar',      component: RiteshComponent },
+    { path: 'surender-thina',      component: SurenderComponent },
+
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
