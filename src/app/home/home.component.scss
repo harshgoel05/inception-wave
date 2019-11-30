@@ -44,7 +44,7 @@ margin: auto;
     }
 }
 .about-us-cont{
-    margin-left: 10%;
+    margin: auto;
 }
 //Our Services
 .ourservices{
@@ -195,6 +195,9 @@ hr{
     .blog-container{
         padding-left: 20%;
     }
+    .communities-buttons .btn{
+        width: 200px;
+    }
 }
 .form-area input,.form-area textarea, .form-area select{
     font-size: 1.1em;
@@ -220,4 +223,7 @@ hr{
     background-color: black;
     color: white;
     padding:60px;
+}
+.communities-buttons .btn{
+    width: 250px;
 }
