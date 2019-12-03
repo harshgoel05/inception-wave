@@ -10,10 +10,16 @@
     margin: 20px;
     cursor: pointer;
     border-radius: 50%;
+    box-shadow: rgb(26, 26, 26) 5px 5px;
   }
 .button1{
-    background-image: linear-gradient(to left,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+    background: linear-gradient(to left,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+    transition-duration: 0.5s;
 }
 .button2{
-    background-image: linear-gradient(to right,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+    background: linear-gradient(to right,rgb(143, 72, 235),rgb(57, 57, 255));/* Green */
+}
+.button1:hover{
+    box-shadow: 10px 10px 5px black;
+    margin-left: -20px;;
 }

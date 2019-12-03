@@ -28,8 +28,15 @@
                         <p class="d-lg-none">LinkedIn</p>
                     </a>
                 </li>
-                <li class="nav-item" >
-                    <a href="http://tinyurl.com/iwtech09" class="btn btn-internship btn-round" target="_blank">Apply for Technical Team</a>
+                <li class="nav-item">
+                    <div ngbDropdown>
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Join us!</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-primary">
+                            <a class="dropdown-item">Apply for Tech Team</a>
+                            <a class="dropdown-item">Apply for IWSC</a>
+                            <a class="dropdown-item">Apply for internships</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
