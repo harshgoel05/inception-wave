@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
-import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { KritarthComponent } from './kritarth/kritarth.component';
 import { KartikComponent } from './kartik/kartik.component';
@@ -35,7 +34,6 @@ const routes: Routes =[
     { path: 'yash',     component: ProfileComponent },
      { path: 'signup',           component: SignupComponent },
      { path: 'gallery',          component: LandingComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent },
     { path: 'kritarth',      component: KritarthComponent },
     { path: 'kartik',      component: KartikComponent },
     { path: 'gaurav',      component: GauravComponent },
